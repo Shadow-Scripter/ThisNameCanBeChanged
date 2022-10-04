@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+html, body {
+  overflow-y: hidden;
+  background-image: url('/images/main-bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+.MainText {
+  color: white;
+  font-family: 'Heebo', sans-serif;
+}
+.linkwrap {
+  text-align: center;
+}
+.Center {
+  text-align: center;
+}
+.link{
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Heebo', sans-serif;
+  color: #3874ff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 200ms;
+}
+#a:hover{
+  color: #0c39ed;
+}
+#b:hover{
+  color: #0c39ed;
+}
+#c:hover{
+  color: #0c39ed;
+}

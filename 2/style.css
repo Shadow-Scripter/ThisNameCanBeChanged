@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+html, body {
+  background-image: url('../images/1-bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+.main{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  margin-left: auto;
+}
+.pp{
+  margin-top: 35px;
+}
